@@ -1,0 +1,30 @@
+.titulo{
+    color: rgb(173, 74, 74);
+    text-align: center;
+}
+
+.carta{
+    list-style: none;
+    font-size: 1.5rem;
+    text-align: center;
+    background-color: bisque;
+    border-radius: 10px;
+}
+
+.estiloimagen{
+    margin-top: 10px;
+    border-radius: 10px;
+}
+.cartagenero{
+    font-size: 1rem;
+}
+.carta:hover{
+    transform: scale(1.2);
+}
+@media(max-width:560px) {
+    .carta{
+        width: 90%;
+        height: auto;
+    }
+}
+
